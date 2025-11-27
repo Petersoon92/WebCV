@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="background-image"></div>
+
+    <div class="slides-container" id="slidesContainer">
+        <div class="slides" id="slides">
+            <!-- Obrázky budou dynamicky generovány -->
+        </div>
+    </div>
+
+    <div class="dots" id="dots"></div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
