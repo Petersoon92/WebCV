@@ -32,8 +32,6 @@ html, body {
     height: 85%;
     overflow: hidden;
     z-index: 5;
-    border-radius: 10px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
 }
 
 .slides {
@@ -48,7 +46,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000;
+    background: transparent;
 }
 
 .slide img {
